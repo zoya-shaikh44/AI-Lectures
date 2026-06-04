@@ -1,0 +1,16 @@
+class programmer:
+	company = "microsoft"
+	def __init__(self,name,salary,pin):
+		self.name = name 
+		self.salary = salary
+		self .pin = pin  
+		
+		
+p = programmer ("zoya",1200000,245002)
+print (p.name ,p.salary ,p.pin,p.company)
+
+ 
+ 
+		
+r = programmer ("ranu",1200000,245002)
+print (r.name ,r.salary ,r.pin,r.company)
